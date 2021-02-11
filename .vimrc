@@ -8,6 +8,10 @@ set shellslash
 
 syntax on
 
+" Scala syntax highlighting
+au BufRead,BufNewFile *.scala set filetype=scala
+au! Syntax sacla source ~/.vim/syntax/scala.vim
+
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
