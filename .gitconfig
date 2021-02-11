@@ -3,3 +3,4 @@
   email = carolinexwliu89@berkeley.edu
 [core]
   excludesfile = ~/.gitignore
+  editor = vim
