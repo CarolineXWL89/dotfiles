@@ -5,6 +5,7 @@ set encoding=utf-8
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set background=dark
 set shellslash
+set list
 
 syntax on
 
