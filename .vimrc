@@ -2,10 +2,10 @@ set nu
 set ruler
 set cursorline
 set encoding=utf-8
-set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-set background=dark
+set tabstop=4 softtabstop=2 shiftwidth=2 expandtab
+set background=light
 set shellslash
-set list
+" set list
 
 syntax on
 
@@ -21,6 +21,8 @@ call vundle#begin("~/.vim/bundle")
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'ycm-core/YouCompleteMe'
+
+Plugin 'rdnetto/YCM-Generator'
 "
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
