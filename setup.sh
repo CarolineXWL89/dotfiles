@@ -19,7 +19,7 @@ git clone git@github.com:CarolineXWL89/dotfiles.git ~/git/
 git clone https://github.com/udifuchs/icc-brightness.git ~/git/
 
 # General installations
-sudo apt-get install tmux git curl
+sudo apt-get install tmux git curl gparted xclip
 
 # Brightness support
 sudo apt install liblcms2-dev
