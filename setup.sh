@@ -37,3 +37,13 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 python3 ~/.vim/bundle/YouCompleteMe/install.py
 python3 ~/.vim/bundle/YouCompleteMe/install.py --clangd-completer
+
+# Set up alien to handle RPM files: https://linuxize.com/post/install-rpm-packages-on-ubuntu/
+# sudo add-apt-repository universe
+# sudo apt-get update && sudo apt upgrade
+# sudo apt install alien
+
+# Install apps
+sudo apt-get install spotify-client
+sudo snap install todoist
+sudo snap install slack --classic
