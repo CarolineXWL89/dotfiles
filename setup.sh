@@ -47,3 +47,7 @@ python3 ~/.vim/bundle/YouCompleteMe/install.py --clangd-completer
 sudo apt-get install spotify-client
 sudo snap install todoist
 sudo snap install slack --classic
+# Somehow curl downloads a 0B file...
+# curl https://zoom.us/client/latest/zoom_amd64.deb -o ~/Downloads/zoom_amd64.deb
+wget https://zoom.us/client/latest/zoom_amd64.deb -O ~/Downloads/zoom_amd64.deb
+sudo apt-get install ~/Downloads/zoom_amd64.deb
