@@ -5,6 +5,7 @@ set encoding=utf-8
 set tabstop=4 softtabstop=2 shiftwidth=2 expandtab
 set background=light
 set shellslash
+set backspace=indent,eol,start
 " set list
 
 syntax on
