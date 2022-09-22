@@ -14,6 +14,9 @@ syntax on
 au BufRead,BufNewFile *.scala set filetype=scala
 au! Syntax scala source ~/.vim/syntax/scala.vim
 
+" Verilog syntax highlighting
+autocmd BufNewFile,BufRead *.v,*.vs set syntax=verilog
+
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
